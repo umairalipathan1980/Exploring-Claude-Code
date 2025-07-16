@@ -1,6 +1,6 @@
 # 📚 RAG Document Q&A System
 
-A naive RAG (Retrieval-Augmented Generation) built with Claude Code. 
+A naive RAG (Retrieval-Augmented Generation) built with Claude Code to demonstrate how Claude Code can be used to develop applications with no/little programming experience. 
 
 
 ![RAG System](https://img.shields.io/badge/RAG-System-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-2D3748?logo=langchain&logoColor=white)
