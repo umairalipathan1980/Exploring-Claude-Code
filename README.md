@@ -1,6 +1,7 @@
 # 📚 RAG Document Q&A System
 
-A modern, interactive RAG (Retrieval-Augmented Generation) application built with Streamlit that enables intelligent document conversations using OpenAI's latest models. Upload your documents and chat with them using an intuitive ChatGPT-like interface!
+A naive RAG (Retrieval-Augmented Generation) built with Claude Code. 
+
 
 ![RAG System](https://img.shields.io/badge/RAG-System-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-2D3748?logo=langchain&logoColor=white)
 
@@ -25,17 +26,15 @@ A modern, interactive RAG (Retrieval-Augmented Generation) application built wit
 - **Easy Management**: Load existing or create new knowledge bases
 - **Statistics Dashboard**: View document counts and knowledge base info
 
-### 🎨 Modern UI/UX
-- **Responsive Design**: Beautiful gradient headers and styled components
-- **Visual Feedback**: Loading animations and status indicators
-- **Intuitive Layout**: Clean, organized interface following modern design principles
-- **Interactive Elements**: Hover effects, styled buttons, and smooth transitions
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.8+
 - OpenAI API key
+- LangChain
+- Streamlit
+- FAISS
 
 ### Installation
 
@@ -106,19 +105,6 @@ experimental/
     └── ...
 ```
 
-### Technical Stack
-- **🎯 Frontend**: Streamlit with custom CSS for modern UI
-- **🤖 LLM**: OpenAI GPT-4.1-2025-04-14 for intelligent responses
-- **🔍 Embeddings**: OpenAI text-embedding-3-large for semantic search
-- **📊 Vector Database**: FAISS for efficient similarity search
-- **🔗 Framework**: LangChain for RAG orchestration
-- **📄 Document Processing**: PyPDF2 (PDFs), python-docx (Word documents)
-
-### RAG Pipeline
-1. **Document Ingestion** → Split into chunks → **Create Embeddings**
-2. **Query Processing** → **Similarity Search** → **Context Retrieval**
-3. **LLM Generation** → **Response with Sources** → **Display Results**
-
 ## ⚙️ Configuration
 
 ### Environment Variables
@@ -177,16 +163,3 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs or request features
-- Improve documentation
-- Submit pull requests for enhancements
-
-## 🙏 Acknowledgments
-
-- **OpenAI** for providing powerful language models and embeddings
-- **Streamlit** for the excellent web framework
-- **LangChain** for RAG orchestration tools
-- **FAISS** for efficient vector similarity search
